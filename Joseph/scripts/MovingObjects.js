@@ -15,3 +15,15 @@ sec1.addEventListener("click", function() {
 	//move stored innerHTML from sec1 to sec2
 	sec2.innerHTML = innerHTML;
 });
+
+//add mouseover event to sec2 area
+sec2.addEventListener("mouseover", function() {
+	//store the innerHTML from sec2
+	var innerHTML = this.innerHTML;
+
+	//clear the innerHTML fron sec2
+	this.innerHTML = '';
+
+	//move stored innerHTML from sec2 to sec1
+	sec1.innerHTML = innerHTML;
+});
