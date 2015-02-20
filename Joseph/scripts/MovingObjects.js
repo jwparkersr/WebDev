@@ -1,4 +1,4 @@
-function() {
+function moveDemObjects() {
 	//grab section1 by id
 	var sec1 = document.getElementById("section1");
 
