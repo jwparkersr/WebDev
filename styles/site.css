@@ -1,0 +1,7 @@
+body {
+	/*background-color: white;*/
+}
+
+section:nth-child(2n+1) {
+	background-color: #d3d3d3;
+}
