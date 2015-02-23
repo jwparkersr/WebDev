@@ -3,6 +3,6 @@ body {
 	/*background-color: white;*/
 }
 
-section:nth-child(1) {
+section:nth-child(odd) {
 	background-color: #d3d3d3;
 }
