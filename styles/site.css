@@ -29,3 +29,10 @@ section:nth-child(even) {
 audio, video {
 	width: 100%;
 }
+
+#canvas_game {
+	/*width: 300px;*/
+	height: 300;
+}
+
+/*Media query to remove sections where cannot see less than 800px*/
