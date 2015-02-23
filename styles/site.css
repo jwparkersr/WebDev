@@ -4,18 +4,19 @@ body {
 
 header > nav li {
 	list-style-type: none;
-}
-
-header > nav li > a {
 	display: inline;
 	padding-right: 0.625em;
 }
 
-body > header, section > hgroup > h2 {
+body > header,
+section > hgroup > h2
+footer {
 	text-align: center;
 }
 
-section > hgroup > h4, section > header > h4, section > article {
+section > hgroup > h4,
+section > header > h4,
+section > article {
 	margin-left: 12.5em;
 }
 
