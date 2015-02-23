@@ -25,3 +25,7 @@ section > article {
 section:nth-child(even) {
 	background-color: #d3d3d3;
 }
+
+audio, video {
+	width: 100%;
+}
