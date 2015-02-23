@@ -1,8 +1,8 @@
-// var canvas = document.getElementById('canvas_game');
+var canvas = document.getElementById('canvas_game');
 
 var context;
 
-document.getElementById('canvas_game').addEventListener('click', function() {
+canvas.addEventListener('click', function() {
 	// Specify 2d canvas type.
 	context = this.getContext('2d');
 
@@ -16,6 +16,8 @@ document.getElementById('canvas_game').addEventListener('click', function() {
 
 	// Draw space ship.
 	makeShip();
+
+	this.removeEventListener('click', arguments.callee);
 })
 
 function stars(){
