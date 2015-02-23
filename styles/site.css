@@ -11,10 +11,8 @@ header > nav li > a {
 	padding-right: 0.625em;
 }
 
-header > h1, section > hgroup > h2 {
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+body > header, section > hgroup > h2 {
+	text-align: center;
 }
 
 section > hgroup > h4, section > header > h4, section > article {
