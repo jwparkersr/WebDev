@@ -32,7 +32,7 @@ audio, video {
 
 #canvas_game {
 	/*width: 300px;*/
-	height: 300;
+	height: 300px;
 }
 
 /*Media query to remove sections where cannot see less than 800px*/
