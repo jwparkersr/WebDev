@@ -1,8 +1,8 @@
-var canvas = document.getElementById('canvas_game');
+// var canvas = document.getElementById('canvas_game');
 
 var context;
 
-canvas.addEventListener('hover', function() {
+document.getElementById('canvas_game').addEventListener('click', function() {
 	// Specify 2d canvas type.
 	context = this.getContext('2d');
 
