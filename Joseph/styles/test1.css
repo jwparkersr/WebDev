@@ -1,0 +1,61 @@
+/*
+Text Properties:
+color
+weight
+style
+font-family
+@font-family woff => ttf + otf
+font-size
+alignment - right, left, center
+spacing - letter-spacing: 2px;
+indent - text-indent: 50px;
+hyphenation - &shy; when hyphen: manual;
+shadow
+*/
+
+h1 {
+	color: red;
+	font-weight: bold;
+	text-shadow: 5px 5px blue;
+}
+
+h1:hover {
+	text-shadow: 5px 5px 8px blue;
+}
+
+h3 {
+	letter-spacing: 5px;
+	color: rgba(255, 0, 0, 0.4);
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'fanwood';
+	src: url('fonts/fanwood.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'fanwood_italic';
+	src: url('fonts/fanwood_italic.woff') format('woff');
+}
+
+div {
+	text-align: left;
+	font-family: fanwood;
+}
+
+div.second {
+	text-align: center;
+	font-family: fanwood_italic;
+	font-style: italic;
+}
+
+div.third {
+	text-align: right;
+	font-size: 24pt;
+}
+
+p {
+	text-indent: 50px;
+	hyphens: manual;
+}
