@@ -9,7 +9,7 @@ header > nav li {
 }
 
 body > header,
-section > hgroup > h2
+section > hgroup > h2,
 footer {
 	text-align: center;
 }
