@@ -1,6 +1,23 @@
 body {
 	margin: 0;
-	/*background-color: white;*/
+}
+
+header > ul > li {
+	list-style-type: none;
+}
+
+header > ul > li > a {
+	display: inline;
+	padding-right: 0.625em;
+}
+
+header > h1, section > hgroup > h2 {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+section > hgroup > h4, section > article {
+	margin-left: 12.5em;
 }
 
 section:nth-child(even) {
