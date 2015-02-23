@@ -17,7 +17,7 @@ footer {
 section > hgroup > h4,
 section > header > h4,
 section > article {
-	margin-left: 12.5em;
+	margin-left: 25em;
 }
 
 section:nth-child(even) {
